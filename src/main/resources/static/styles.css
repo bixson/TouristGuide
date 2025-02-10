@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=American+Typewriter:wght@700&family=Andale+Mono&display=swap');
+
+body {
+    font-family: 'Andale Mono', monospace, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #174041;
+    color: #333;
+}
+
+header {
+    background-color: #1C5253;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+main {
+    padding: 2em;
+}
+header h1{
+    font-family: 'American Typewriter', serif;
+    font-weight: bold;
+    color: #BEB7A4;
+}
+h1, h2 {
+    font-family: 'American Typewriter', serif;
+    color: #BEB7A4;
+    text-align: center;
+}
+
+
+/* sections styling*/
+.description, .attractions, .endpoints {
+    margin-bottom: 2em;
+    padding: 1em;
+    background-color: #174546;
+    border: 2px solid #BEB7A4;
+    border-radius: 8px; /* rounded corners */
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin: 0.5em 0;
+}
+a {
+    font-family: 'American Typewriter', serif;
+    color: #D2D1CB;
+    text-decoration: none;
+}
+a:hover {
+    color: #925E78;
+    text-decoration: underline;
+}
+p {
+    color: #D2D1CB;
+    text-decoration: none;
+}
+
+
+/* tourist attractions [images] */
+.attractions ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+.attractions li {
+    list-style-type: none;
+    width: calc(50% - 1em);
+    box-sizing: border-box;
+}
+.attractions img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+
+
+/* API Endpoints */
+.small-text {
+    font-size: 0.8em;
+}
+.endpoints {
+    text-align: center;
+    padding: 1.5em 2em; /* top and bottom */
+    background-color: #1C5253;
+    border: 2px solid #BEB7A4;
+    border-radius: 12px;
+    max-width: 700px;
+    margin: 1.5em auto; /* vertical spacing */
+}
+.endpoints h2 {
+    font-size: 1.8em;
+}
+.endpoints .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.3em 1em;
+    justify-content: center;
+    max-width: 500px;
+    margin: auto;
+}
+.endpoints .grid li {
+    background: #174041;
+    padding: 0.5em 1em;
+    border-radius: 6px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    transition: all 0.2s ease-in-out;
+    height: 2.5em;
+}
+.endpoints .grid li:hover {
+    background: #266363;
+    transform: scale(1.05);
+}
+.endpoints .grid a {
+    font-size: 1em;
+    color: #D2D1CB;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+}
+.endpoints .grid a:hover {
+    color: #F2E9E4;
+    text-decoration: underline;
+}
+.endpoints .grid li {
+    text-align: left;
+    white-space: nowrap;
+    padding: 0.8em 1em;
+}
+
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #F28123;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
