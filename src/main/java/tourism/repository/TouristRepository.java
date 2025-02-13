@@ -21,7 +21,7 @@ public class TouristRepository {
         touristAttractionList.add(new TouristAttraction("Nyhavn", "Der er flot og livligt"));
         touristAttractionList.add(new TouristAttraction("Zoologisk Have", "Der er mange forskellige dyr"));
         touristAttractionList.add(new TouristAttraction("Amager Centret", "Det er hér det sker"));
-        touristAttractionList.add(new TouristAttraction("Torvehallerne", "Dyr og lækker madoplevelse"));
+        touristAttractionList.add(new TouristAttraction("TorvehallerneKBH", "Dyr og lækker madoplevelse"));
 
     }
 
