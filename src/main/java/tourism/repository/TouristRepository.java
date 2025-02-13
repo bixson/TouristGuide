@@ -19,6 +19,7 @@ public class TouristRepository {
         touristAttractionList.add(new TouristAttraction("Guldbar", "Der er billig øl"));
         touristAttractionList.add(new TouristAttraction("Christania", "Der er frit"));
         touristAttractionList.add(new TouristAttraction("Nyhavn", "Der er flot og livligt"));
+        touristAttractionList.add(new TouristAttraction("Zoologisk Have", "Der er mange forskellige dyr"));
     }
 
     // Read list method
