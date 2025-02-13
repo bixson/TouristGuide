@@ -6,7 +6,7 @@ body {
     padding: 0;
     background-color: #174041;
     color: #333;
-    scroll-behavior: smooth; /* smooth scrolling yesss */
+    scroll-behavior: smooth; /* smooth scrolling yesss, not needed but nice */
 }
 
 header {
@@ -32,7 +32,7 @@ h1, h2 {
     text-align: center;
 }
 
-/* sections styling */
+/* Sections styling */
 .description, .attractions {
     max-width: 1100px;
     width: 100%;
@@ -71,10 +71,10 @@ p {
     line-height: 1.6;
 }
 
-/* tourist attractions [images] */
+/* Tourist attractions [images] */
 .attractions ul {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* force-fits 2-3 per row */
+    grid-template-columns: repeat(3, 1fr); /* force-fits 3 per row */
     gap: 2em;
     padding: 1.5em;
     justify-content: center; /* center img */
@@ -89,7 +89,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-gap: 1em;
+    gap: 1em;
 }
 
 .attractions img {
@@ -114,7 +114,7 @@ gap: 1em;
     width: 100%;
 }
 
-/* force img-text down */
+/* force img-text down (img collides without) */
 .attractions a span {
     margin-top: 0.5em;
     display: block;
@@ -211,7 +211,7 @@ footer {
 }
 
 .footer-contact a {
-    display: inline; /* no extra hoverable areas  */
+    display: inline; /* no extra hoverable areas [problemos, sí]  */
     color: #D2D1CB;
     text-decoration: none;
     font-size: 1em;
@@ -231,6 +231,7 @@ footer {
     opacity: 0.7;
 }
 
+/* for the small ones :* */
 @media (max-width: 1024px) {
     .attractions ul {
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
