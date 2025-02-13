@@ -37,11 +37,6 @@ public class TouristController {
         }
     }
 
-//@GetMapping("/{name}")
-//public ResponseEntity<TouristAttraction> getTouristAttraction(@PathVariable String name) {
-//    TouristAttraction attraction = touristService.getTouristAttractionByName(name);
-//    return (attraction != null) ? ResponseEntity.ok(attraction) : ResponseEntity.notFound().build();
-//}
 
     //add new attraction
     @PostMapping ("/add")

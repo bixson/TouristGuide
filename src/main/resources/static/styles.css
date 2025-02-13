@@ -72,7 +72,7 @@ p {
 /* tourist attractions [images] */
 .attractions ul {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* auto-fits 2-3 per row */
+    grid-template-columns: repeat(3, 1fr); /* force-fits 2-3 per row */
     gap: 1.5em;
     padding: 1.5em;
     justify-content: center; /* center img */
@@ -87,12 +87,13 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+gap: 1em;
 }
 
 .attractions img {
-    width: 100%;
-    max-width: 350px;
-    height: auto;
+    width: 350px;
+    height: 220px;
+    object-fit: cover;
     border-radius: 10px; /* super soft edges */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
