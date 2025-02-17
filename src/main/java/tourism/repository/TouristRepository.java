@@ -12,16 +12,16 @@ public class TouristRepository {
 
     // Constructor to add initial TouristAttraction objects
     public TouristRepository() {
-        touristAttractionList.add(new TouristAttraction("Den Lille Havfrue", "Den er meget lille"));
-        touristAttractionList.add(new TouristAttraction("Amalienborg", "Der bor kongen"));
-        touristAttractionList.add(new TouristAttraction("Kongens Nytorv", "Der er hyggeligt om sommeren"));
-        touristAttractionList.add(new TouristAttraction("KEA", "Det er en fin skole"));
-        touristAttractionList.add(new TouristAttraction("Guldbar", "Der er billig øl"));
-        touristAttractionList.add(new TouristAttraction("Christiania", "Der er frit"));
-        touristAttractionList.add(new TouristAttraction("Nyhavn", "Der er flot og livligt"));
-        touristAttractionList.add(new TouristAttraction("Zoologisk Have", "Der er mange forskellige dyr"));
-        touristAttractionList.add(new TouristAttraction("Amager Centret", "Det er hér det sker"));
-        touristAttractionList.add(new TouristAttraction("Torvehallerne", "Dyr og lækker madoplevelse"));
+        touristAttractionList.add(new TouristAttraction("Den Lille Havfrue", "Den er meget lille", "København", List.of("Udendørs, Kunst")));
+        touristAttractionList.add(new TouristAttraction("Amalienborg", "Der bor kongen", "København", List.of("Historisk", "Museum")));
+        touristAttractionList.add(new TouristAttraction("Kongens Nytorv", "Der er hyggeligt om sommeren", "København", List.of("Udendørs", "Shopping")));
+        touristAttractionList.add(new TouristAttraction("KEA", "Det er en fin skole", "København", List.of("Natteliv", "Studieliv")));
+        touristAttractionList.add(new TouristAttraction("Guldbar", "Der er billig øl", "København", List.of("Natteliv", "Studieliv")));
+        touristAttractionList.add(new TouristAttraction("Christiania", "Der er frit", "København", List.of("Udendørs")));
+        touristAttractionList.add(new TouristAttraction("Nyhavn", "Der er flot og livligt", "København", List.of("Udendørs")));
+        touristAttractionList.add(new TouristAttraction("Zoologisk Have", "Der er mange forskellige dyr", "Frederiksberg", List.of("Udendørs", "Børnevenligt")));
+        touristAttractionList.add(new TouristAttraction("Amager Centret", "Det er hér det sker", "Amagerbro", List.of("Shopping")));
+        touristAttractionList.add(new TouristAttraction("Torvehallerne", "Dyr og lækker madoplevelse","København", List.of("Shopping", "Mad")));
 
     }
 
