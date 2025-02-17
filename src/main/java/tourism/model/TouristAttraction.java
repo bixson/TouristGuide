@@ -5,16 +5,16 @@ import java.util.List;
 public class TouristAttraction {
     private String name;
     private String description;
-    private List tags;
     private String city;
+    private List tags;
 
 
     //constructor
-    public TouristAttraction(String name, String description, List tags, String city){
+    public TouristAttraction(String name, String description, String city, List tags){
         this.name = name;
         this.description = description;
-        this.tags = tags;
         this.city = city;
+        this.tags = tags;
 
 
     }
@@ -35,15 +35,16 @@ public class TouristAttraction {
         this.description = description;
     }
 
+    public String getCity()
+    {return city;}
+
+    public void setCity(String city)
+    {this.city = city;}
+
     public List getTags()
     {return tags;}
 
     public void setTags(List tags)
     {this.tags = tags;}
 
-    public String getCity()
-    {return city;}
-
-    public void setCity(String city)
-    {this.city = city;}
 }
