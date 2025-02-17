@@ -17,6 +17,12 @@ public class TouristRepository {
         touristAttractionList.add(new TouristAttraction("Kongens Nytorv", "Der er hyggeligt om sommeren"));
         touristAttractionList.add(new TouristAttraction("KEA", "Det er en fin skole"));
         touristAttractionList.add(new TouristAttraction("Guldbar", "Der er billig øl"));
+        touristAttractionList.add(new TouristAttraction("Christiania", "Der er frit"));
+        touristAttractionList.add(new TouristAttraction("Nyhavn", "Der er flot og livligt"));
+        touristAttractionList.add(new TouristAttraction("Zoologisk Have", "Der er mange forskellige dyr"));
+        touristAttractionList.add(new TouristAttraction("Amager Centret", "Det er hér det sker"));
+        touristAttractionList.add(new TouristAttraction("Torvehallerne", "Dyr og lækker madoplevelse"));
+
     }
 
     // Read list method
